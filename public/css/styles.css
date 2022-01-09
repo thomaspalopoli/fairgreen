@@ -2,39 +2,66 @@ html {
   min-height: 100%;
   position: relative;
 }
-
-.container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
+body {
+  background-color: rgb(245, 232, 209);
+}
+h1 {
+font-family: 'Spectral', serif;
+color: rgb(3, 80, 54);
+}
+.tagline {
+  color: #f17339;
+  font-weight: 800;
+  font-size: larger;
+  font-family: 'PT Sans', sans-serif;
+}
+h2 {
+  font-family: 'PT Sans', sans-serif;
+}
+.logo {
+  margin-right: 5%;
 }
 .navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding:15px 5%;
     border: 0;
     border-radius: 0;
-    margin-bottom: 0;
+    margin-bottom: 5%;
     font-size: 12px;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
+    background-color: rgb(3, 80, 54);
+    color: rgb(245, 232, 209);
+}
+.navbar-brand {
+  color: rgb(245, 232, 209);
+  font-family: 'Spectral', serif;
+}
+.navbar-brand:hover {
+  color: #f17339 !important;
+}
+.nav-item {
+  margin-left:2%;
+}
+.nav-link {
+  color: rgb(245, 232, 209);
+  font-family: 'PT Sans', sans-serif;
+  font-size: medium;
 }
 .navbar-nav  li a:hover {
-    color: #1abc9c !important;
+    color: #f17339 !important;
 }
-
 .footer-padding {
 	padding-bottom: 60px;
 }
-
 .footer {
 	position: absolute;
 	text-align: center;
 	bottom: 0;
 	width: 100%;
 	height: 60px;
-	background-color: #1abc9c;
+	background-color:rgb(3, 80, 54);
 }
-
 .footer p {
 	margin-top: 25px;
 	font-size: 12px;
-  color: #fff;
+  color: rgb(245, 232, 209);
 }

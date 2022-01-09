@@ -39,6 +39,12 @@ app.get("/about", function(req, res){
   res.render("about", {aboutContent: aboutContent});
 });
 
+app.get("/blog", function(req, res){
+  Post.find({}, function(err, posts){
+  res.render("blog", {posts: posts});
+  });
+});
+
 app.get("/contact", function(req, res){
   res.render("contact", {contactContent: contactContent});
 });

@@ -1,18 +1,11 @@
 
 <%- include("partials/header"); -%>
-    <h1>Home</h1>
+    <h1>Fairgreen Estonia</h1>
+    <p class="tagline">Fresh, Local and Chemical-Free Vegetables</p>
     <p> <%= startingContent %> </p>
 
 
-  <%  posts.forEach(post => { %>
 
-    <h1><%=post.title%></h1>
-    <p>
-      <%= post.content.substring(0,50) + " ..." %>
-      <a href="/posts/<%=post._id%>">Read More</a>
-    </p>
-
-    <% }) %>
 
 
 <%- include("partials/footer"); -%>
