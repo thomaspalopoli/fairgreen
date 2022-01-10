@@ -12,7 +12,8 @@ color: rgb(3, 80, 54);
 .tagline {
   color: #f17339;
   font-weight: 800;
-  font-size: larger;
+  font-size: x-large;
+  font-weight: lighter;
   font-family: 'PT Sans', sans-serif;
 }
 h2 {
