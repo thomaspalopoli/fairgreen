@@ -3,11 +3,11 @@ html {
   position: relative;
 }
 body {
-  background-color: rgb(245, 232, 209);
+  background-color: #f5e8d1;
 }
 h1 {
 font-family: 'Spectral', serif;
-color: rgb(3, 80, 54);
+color: #035036;
 }
 .tagline {
   color: #f17339;
@@ -37,7 +37,9 @@ h2 {
     font-size: 12px;
     letter-spacing: 2px;
     background-color: rgb(3, 80, 54);
-    color: rgb(245, 232, 209);
+}
+.navbar a:active, .navbar a:focus, .navbar li:focus, .navbar li:active {
+  background-color: transparent;
 }
 .navbar-brand {
   color: rgb(245, 232, 209);
@@ -56,6 +58,17 @@ h2 {
 }
 .navbar-nav  li a:hover {
     color: #f17339 !important;
+}
+.searchbutton{
+  padding: 0;
+  width: 50px;
+}
+.searchicon{
+  filter: invert(43%) sepia(30%) saturate(774%) hue-rotate(102deg) brightness(91%) contrast(90%);
+  padding: 10%;
+}
+.searchicon:hover{
+  filter: invert(97%) sepia(8%) saturate(844%) hue-rotate(327deg) brightness(98%) contrast(96%);
 }
 .footer-padding {
 	padding-bottom: 60px;

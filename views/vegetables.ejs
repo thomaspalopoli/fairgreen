@@ -1,0 +1,16 @@
+<%- include("partials/header"); -%>
+    <h1>Fresh Vegetables around Tallinn</h1>
+    <p class="tagline">Chemical-Free and Nutrient-Rich Vegetables</p>
+
+    <%  vegetables.forEach(vegetable => { %>
+        <% if (vegetable.availability="yes") { %>
+            <h2><%=vegetable.vegetable%></h2>
+            <p> <%=vegetable.availability%>
+                <a href="/vegetables/<%=vegetable._id%>">Read More</a>
+            </p>
+        <% } else if (vegetable.availability="no") { %>
+            <p>not available</p>
+        <% } %>
+    <% }) %>
+
+<%- include("partials/footer"); -%>
