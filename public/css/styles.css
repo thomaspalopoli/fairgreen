@@ -43,7 +43,7 @@ h2 {
 }
 .navbar-brand {
   color: rgb(245, 232, 209);
-  font-family: 'Spectral', serif;
+  font-family: 'Lato', sans-serif;
 }
 .navbar-brand:hover {
   color: #f17339 !important;
