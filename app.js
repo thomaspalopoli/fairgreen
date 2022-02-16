@@ -34,11 +34,11 @@ app.get("/vegetables", function(req, res){
 });
 
 app.get("/about", function(req, res){
-  res.render("about", {aboutContent: aboutContent});
+  res.render("about");
 });
 
 app.get("/contact", function(req, res){
-  res.render("contact", {contactContent: contactContent});
+  res.render("contact");
 });
 
 app.get("/compose", function(req, res){

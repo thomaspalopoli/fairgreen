@@ -5,12 +5,18 @@ html {
 body {
   background-color: #f5e8d1;
 }
-h1 {
+h1.main-title {
 font-family: 'Lato', serif;
 font-weight: 700;
 font-size: 4em;
 color: #035036;
 }
+h1 {
+  font-family: 'Lato', serif;
+  font-weight: 500;
+  font-size: 3em;
+  color: #035036;
+  }
 .tagline {
   color: #f17339;
   font-weight: 800;
