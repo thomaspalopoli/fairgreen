@@ -47,9 +47,6 @@ h2 {
   color: rgb(245, 232, 209);
   font-family: 'Lato', sans-serif;
 }
-.navbar-brand:hover {
-  color: #2b7c51 !important;
-}
 .nav-item {
   margin-left:2%;
 }
@@ -59,7 +56,8 @@ h2 {
   font-size: medium;
 }
 .navbar-nav  li a:hover {
-    color: #f17339 !important;
+    color: #86c4a3 !important;
+    text-decoration: overline 3px;
 }
 input.form-control.me-2:focus{
   border-color: #2b7c51;
