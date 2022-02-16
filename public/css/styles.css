@@ -6,15 +6,17 @@ body {
   background-color: #f5e8d1;
 }
 h1 {
-font-family: 'Spectral', serif;
+font-family: 'Lato', serif;
+font-weight: 700;
+font-size: 4em;
 color: #035036;
 }
 .tagline {
   color: #f17339;
   font-weight: 800;
-  font-size: x-large;
-  font-weight: lighter;
-  font-family: 'PT Sans', sans-serif;
+  font-size: 2em;
+  font-weight: 300;
+  font-family: 'Dosis', sans-serif;
 }
 h2 {
   font-family: 'PT Sans', sans-serif;
@@ -24,7 +26,7 @@ h2 {
   font-size: 100px;
   color:#2b7c51;
   text-align: center;
-  margin-top:10%;
+  margin:10% 0;
 }
 .logo {
   margin-right: 5%;
@@ -46,7 +48,7 @@ h2 {
   font-family: 'Lato', sans-serif;
 }
 .navbar-brand:hover {
-  color: #f17339 !important;
+  color: #2b7c51 !important;
 }
 .nav-item {
   margin-left:2%;
@@ -58,6 +60,10 @@ h2 {
 }
 .navbar-nav  li a:hover {
     color: #f17339 !important;
+}
+input.form-control.me-2:focus{
+  border-color: #2b7c51;
+  box-shadow: 0 0 0 0.25rem #2b7c51;
 }
 .searchbutton{
   padding: 0;
@@ -85,4 +91,8 @@ h2 {
 	margin-top: 25px;
 	font-size: 12px;
   color: rgb(245, 232, 209);
+}
+
+.centered{
+  text-align: center;
 }
