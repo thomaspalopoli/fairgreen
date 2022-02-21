@@ -80,6 +80,14 @@ input.form-control.me-2:focus{
 .searchicon:hover{
   filter: invert(97%) sepia(8%) saturate(844%) hue-rotate(327deg) brightness(98%) contrast(96%);
 }
+.btn-login{
+  background-color: #2b7c51;
+  margin-left: 2%;
+  border-color: #035036;
+}
+.btn-login:hover{
+  background-color: #86c4a3;
+}
 .footer-padding {
 	padding-bottom: 60px;
 }
